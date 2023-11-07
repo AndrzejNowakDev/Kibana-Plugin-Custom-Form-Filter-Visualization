@@ -1,27 +1,3 @@
-# Kibana Plugin - Custom Form Filter Visualization
-
-This project is a simple tutorial for Kibana new comers trying to develop their own vizualisation plugin. The actual usecase of this plugin is to create a custom data input form, where fields are used to filter data used by other visualizations in the dashboard.
-
-This plugin is a demo based on the accounts data which can be downloaded from Elastic web site [here](https://download.elastic.co/demos/kibana/gettingstarted/accounts.zip). To work, the index pattern for bank data shall be called `bank*` as it is hard coded in `custom_form_filter_accounts_vis_controller.tsx`.
-
-As plugin architecture is being under heavy redesign in 7.x and documentation is rather obscure, I did my best to create something simple that works. The code is also basic, I am a JavaScript beginner!
-
-This repository is for Kibana **v7.8 (up) plugin New Platform (NP)** while [this repository](https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization-Legacy) is for **v7.6.2 'legacy' architecture**.
-
-This plugin is adapted from the [vis_type_markdown](https://github.com/elastic/kibana/tree/7.8/src/plugins/vis_type_markdown) plugin.
-
-**WARNING: this plugin does not work for Kibana 7.13 up. I am not maintaining the code for the moment. Plugin structure and APIs are constantly evolving (changing) and documentation is scarce.**
-
-## Sample Screenshots
-
-Few screen shots which makes it very easy to understand.
-
-![New Visualization - Step 1](./new-visualization1.png)
-
-![New Visualization - Step 2](./new-visualization2.png)
-
-![Dashboard](./dashboard.png)
-
 ## Creating a development environment from scratch on Ubuntu
 
 1. Install curl and JRE
